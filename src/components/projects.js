@@ -4,6 +4,39 @@ const Projects = () => {
   return (
     <div class="project-data">
       <h2>Past/Ongoing Projects</h2>
+      <section id="project-five" class="project-info">
+        <h3>Project: TuneChain</h3>
+        <div class="container">
+          <img
+            class="app-photo"
+            src="images/petfulimage.png"
+            alt="second project"
+          />
+        </div>
+
+        <p>
+          Project Description: A full-stack app that helps people find playlists
+          by mood and genre.
+        </p>
+        <p>
+          Project Tech: Full-Stack with React, HTML, CSS, NodeJs, Express, &
+          PostgreSQL
+        </p>
+        <p>
+          Project Demo: &nbsp;
+          <a href="http://tunechain-app.mdb1710.now.sh">Try It Out</a>
+        </p>
+        <p>
+          Project Repo: &nbsp;
+          <a href="https://github.com/mdb1710/tunechainclient_final">
+            See The Front-End Code Here
+          </a>
+          &
+          <a href="https://github.com/mdb1710/tunechainserver_final">
+            See the API here
+          </a>
+        </p>
+      </section>
       <section id="project-one" class="project-info">
         <h3>Project 1: Spendful</h3>
         <div class="container">

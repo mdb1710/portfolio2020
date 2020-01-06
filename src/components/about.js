@@ -11,14 +11,20 @@ const AboutMe = () => {
         goal. I've always been too curious for my own good and now I'm using my
         skills for four main purposes:
       </p>
-      <ol>
-        <li>Compose code and apps to make new things work.</li>
-        <li>Optimize current apps to make good things work better.</li>
-        <li>Develop new 'toys' to help accomplish the first two goals</li>
-        <li>
-          Experience the world both inside and outside of the computer screen.
-        </li>
-      </ol>
+      <div className="container">
+        <div className="reason">
+          Compose code and apps to make new things work.
+        </div>
+        <div className="reason">
+          Optimize current apps to make good things work better.
+        </div>
+        <div className="reason">
+          Develop new 'toys' to help accomplish the first two goals
+        </div>
+        <div className="reason">
+          Experience the world inside & outside of the screen.
+        </div>
+      </div>
     </div>
   )
 }

@@ -14,8 +14,8 @@ const App = () => {
       <Layout>
         <AboutMe />
         <Extra />
-        <Projects />
       </Layout>
+      <Projects />
       <Footer />
     </>
   )

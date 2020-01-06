@@ -4,9 +4,8 @@ import "./layout.css"
 const Layout = ({ children }) => {
   return (
     <div
+      className=""
       style={{
-        margin: `3rem auto`,
-        maxWidth: 850,
         padding: `0 1rem`,
         fontFamily: `Raleway, sans-serif`,
       }}
