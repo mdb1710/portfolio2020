@@ -6,16 +6,19 @@ import AboutMe from "../components/about"
 import Extra from "../components/extra"
 import Projects from "../components/projects"
 import Footer from "../components/footer"
+// import { Router } from "@reach/router"
 
 const App = () => {
   return (
     <>
       <Header />
+
       <Layout>
         <AboutMe />
         <Extra />
       </Layout>
       <Projects />
+
       <Footer />
     </>
   )
