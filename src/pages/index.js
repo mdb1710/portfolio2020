@@ -7,6 +7,7 @@ import Extra from "../components/extra"
 import Projects from "../components/projects"
 import Footer from "../components/footer"
 import Nav from "../components/nav"
+
 // import { Router } from "@reach/router"
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
 
       <Layout>
         <Nav />
+
         <AboutMe />
         <Extra />
       </Layout>
